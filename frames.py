@@ -55,7 +55,6 @@ class Percentages(Frame):
                 setattr(self, "percent" + percentage.__str__(), percentage)
 
     def set_percentage(self, percent: int):
-        # getattr(self.parent, self.parent.extremity).append(percent)
         self.parent.set_percentage(percent)
 
 
